@@ -1331,6 +1331,63 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5626142120532356289, guid: 491bc9f68306cad40a65002e796205eb, type: 3}
   m_PrefabInstance: {fileID: 1566788838}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1619689556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5232825968891457839, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_Name
+      value: Fuel Pickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.426338
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.854258
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
 --- !u!1 &1748082829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1500,63 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5626142120532356289, guid: 491bc9f68306cad40a65002e796205eb, type: 3}
   m_PrefabInstance: {fileID: 315568329}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6609065547837824053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5232825968891457839, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_Name
+      value: Fuel Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846784607155342427, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eff1f97605ee5d6449744317ff37adab, type: 3}
 --- !u!1001 &7564587887109272277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1516,3 +1630,5 @@ SceneRoots:
   - {fileID: 1547466580}
   - {fileID: 7564587887109272277}
   - {fileID: 798222801}
+  - {fileID: 6609065547837824053}
+  - {fileID: 1619689556}

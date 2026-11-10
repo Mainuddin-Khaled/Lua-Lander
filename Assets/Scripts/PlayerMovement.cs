@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public event EventHandler OnRightForce;
     public event EventHandler OnLeftForce;
     public event EventHandler OnBeforeForce;
+    public event EventHandler OnCoinPickup;
     private Rigidbody2D rigidBody2D;
     private float fuelAmount = 10f;
     private void Awake()
@@ -18,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         OnBeforeForce?.Invoke(this, EventArgs.Empty);
-        Debug.Log(fuelAmount);
         if (fuelAmount <= 0f)
         {
             return;
@@ -97,6 +98,11 @@ public class PlayerMovement : MonoBehaviour
             float addFuelAmount = 10f;
             fuelAmount += addFuelAmount;
             fuelPickup.SelfDestroy();
+        }
+        if (collider2D.gameObject.TryGetComponent(out CoinPickup coinPickup))
+        {
+            OnCoinPickup?.Invoke(this, EventArgs.Empty);
+            coinPickup.SelfDestroy();
         }
     }
 
